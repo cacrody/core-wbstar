@@ -1,0 +1,18 @@
+--- themes/claro/css/components/vertical-tabs.pcss.css
++++ themes/claro/css/components/vertical-tabs.pcss.css
+@@ -12,6 +12,7 @@
+  * This wrapper div is added by JavaScript.
+  */
+ .vertical-tabs {
++  display: flex;
+   margin-top: var(--vertical-tabs-margin-vertical);
+   margin-bottom: var(--vertical-tabs-margin-vertical);
+   border-top: 1px solid transparent; /* Need to hide the pane wrapper clearfix's height */
+@@ -269,7 +270,6 @@
+ }
+ 
+ .vertical-tabs .vertical-tabs__panes {
+-  margin-left: var(--vertical-tabs-menu-width); /* LTR */
+   border-top-left-radius: 0; /* LTR */
+ }
+ 
